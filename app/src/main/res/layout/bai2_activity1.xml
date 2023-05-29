@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    tools:context=".Bai2_Activity1">
+
+
+    <TextView
+        android:text="Bạn muốn mua gì ??"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtname_book"
+        android:hint="Nhập sách cần mua"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Sau khi bấm nút vui lòng chờ một chút để nhà hàng báo giá"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btngui"
+        android:textStyle="bold"
+        android:text="Gửi"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:background="@drawable/boder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Giá của sản phầm là:"
+        android:textSize="20sp"
+        android:textColor="#2196F3"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/txttrave_gia"
+        android:textStyle="bold"
+        android:text="0"
+        android:textColor="#ff0000"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
